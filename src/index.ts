@@ -15,11 +15,11 @@ async function startApolloServer() {
         },
       };
     },
-   
-  }
-    listen :{
-      port:process.env.PORT || 4000,
+    listen : {
+      port: process.env.PORT || 4001,
     }
+  },
+   
   );
   console.log(`
     🚀  Server is running!
