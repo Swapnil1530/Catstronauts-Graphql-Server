@@ -16,7 +16,7 @@ async function startApolloServer() {
       };
     },
     listen :{
-      port:4000
+      port:process.env.PORT || 4000,
     }
   }
    
